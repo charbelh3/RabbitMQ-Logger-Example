@@ -1,6 +1,7 @@
 NodeJs microservices with RabbitMQ implementation of the direct exchange type.
 
 2 consumers => loggerMS and warningAndErrorMS
+
 1 producer => infoMS
 
 Idea : Make an API call to create a log, by specifying the log type, which will be used as a message routing key, to be used by the direct exchange,
